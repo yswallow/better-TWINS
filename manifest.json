@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Better TWINS Board",
+    "version": "1.0",
+
+    "description": "Shows Posting body in board",
+
+    "icons": {},
+    "content_scripts": [
+        {
+            "matches": ["https://twins.tsukuba.ac.jp/campusweb/campusportal.do?page=main&tabId=kj"],
+            "js": ["better-twins.js"]
+        }
+    ]
+}
